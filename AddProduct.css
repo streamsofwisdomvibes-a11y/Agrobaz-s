@@ -1,0 +1,102 @@
+.add-product {
+
+  min-height: 80vh;
+
+  padding: 50px;
+
+  background:
+  linear-gradient(
+    135deg,
+    #0b3d2e,
+    #14532d,
+    #d4af37
+  );
+
+}
+
+
+.add-product h1 {
+
+  color:#ffd700;
+
+  font-size:40px;
+
+  text-align:center;
+
+}
+
+
+
+.add-product form {
+
+  max-width:600px;
+
+  margin:auto;
+
+  background:white;
+
+  padding:30px;
+
+  border-radius:20px;
+
+  display:flex;
+
+  flex-direction:column;
+
+  gap:15px;
+
+}
+
+
+
+.add-product input,
+.add-product textarea {
+
+
+  padding:15px;
+
+  border-radius:10px;
+
+  border:1px solid #ccc;
+
+  font-size:16px;
+
+}
+
+
+
+.add-product textarea {
+
+  height:120px;
+
+}
+
+
+
+.add-product button {
+
+  padding:15px;
+
+  background:#0b3d2e;
+
+  color:white;
+
+  border:none;
+
+  border-radius:10px;
+
+  cursor:pointer;
+
+  font-size:18px;
+
+}
+
+
+
+.add-product button:hover {
+
+  background:#d4af37;
+
+  color:black;
+
+}

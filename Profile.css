@@ -1,0 +1,50 @@
+.profile {
+
+  padding: 40px;
+
+  max-width: 600px;
+
+  margin: auto;
+
+}
+
+
+.profile h1 {
+
+  text-align: center;
+
+}
+
+
+
+.profile form {
+
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 15px;
+
+}
+
+
+
+.profile input {
+
+  padding: 12px;
+
+  border-radius: 8px;
+
+  border: 1px solid #ccc;
+
+}
+
+
+
+.profile button {
+
+  padding: 12px;
+
+  cursor: pointer;
+
+}

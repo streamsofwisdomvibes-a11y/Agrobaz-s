@@ -1,0 +1,112 @@
+.home{
+  background:#f7f7f7;
+}
+
+.hero{
+  background:linear-gradient(135deg,#1b5e20,#2e7d32);
+  color:white;
+  text-align:center;
+  padding:90px 20px;
+}
+
+.hero h1{
+  font-size:50px;
+  margin-bottom:15px;
+}
+
+.hero h2{
+  margin-bottom:20px;
+}
+
+.hero p{
+  max-width:700px;
+  margin:auto;
+  font-size:18px;
+}
+
+.hero-buttons{
+  margin-top:35px;
+  display:flex;
+  justify-content:center;
+  gap:20px;
+  flex-wrap:wrap;
+}
+
+.primary-btn{
+  background:#d4af37;
+  color:black;
+  border:none;
+  padding:15px 30px;
+  border-radius:10px;
+  cursor:pointer;
+  font-size:16px;
+  font-weight:bold;
+}
+
+.secondary-btn{
+  background:white;
+  color:#1b5e20;
+  border:none;
+  padding:15px 30px;
+  border-radius:10px;
+  cursor:pointer;
+  font-size:16px;
+  font-weight:bold;
+}
+
+.categories,
+.how-it-works,
+.why,
+.cta{
+  padding:70px 20px;
+  text-align:center;
+}
+
+.category-grid,
+.steps,
+.why-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+  gap:25px;
+  margin-top:40px;
+}
+
+.category-card,
+.step,
+.why-grid div{
+  background:white;
+  padding:30px;
+  border-radius:15px;
+  box-shadow:0 4px 12px rgba(0,0,0,.08);
+}
+
+.cta{
+  background:#1b5e20;
+  color:white;
+}
+.stats{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+  gap:25px;
+  padding:60px 20px;
+  background:#fff;
+}
+
+.stat-card{
+  background:#f7f7f7;
+  padding:30px;
+  text-align:center;
+  border-radius:15px;
+  box-shadow:0 5px 15px rgba(0,0,0,.08);
+}
+
+.stat-card h2{
+  color:#1b5e20;
+  font-size:38px;
+  margin-bottom:10px;
+}
+
+.stat-card p{
+  color:#555;
+  font-size:18px;
+}

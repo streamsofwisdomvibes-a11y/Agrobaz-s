@@ -1,0 +1,295 @@
+.marketplace {
+  background: #f7f7f7;
+  min-height: 100vh;
+  padding-bottom: 50px;
+}
+
+
+/* Hero */
+
+.hero {
+  background: linear-gradient(
+    135deg,
+    #0b3d2e,
+    #1b5e20
+  );
+  color: white;
+  padding: 70px 30px;
+  text-align: center;
+}
+
+
+.hero h1 {
+  font-size: 45px;
+  margin-bottom: 15px;
+}
+
+
+.hero h2 {
+  font-size: 28px;
+}
+
+
+.hero p {
+  font-size: 18px;
+}
+
+
+
+.search-box {
+
+  margin: 30px auto;
+
+  display:flex;
+
+  max-width:600px;
+
+}
+
+
+
+.search-box input {
+
+  flex:1;
+
+  padding:15px;
+
+  border:none;
+
+  border-radius:8px 0 0 8px;
+
+  font-size:16px;
+
+}
+
+
+
+.search-box button {
+
+  padding:15px 25px;
+
+  background:#d4af37;
+
+  border:none;
+
+  cursor:pointer;
+
+  border-radius:0 8px 8px 0;
+
+}
+
+
+
+
+
+/* Categories */
+
+
+.categories {
+
+padding:40px;
+
+text-align:center;
+
+}
+
+
+
+.category-grid {
+
+display:grid;
+
+grid-template-columns:
+repeat(4,1fr);
+
+gap:20px;
+
+}
+
+
+
+.category-grid div {
+
+background:white;
+
+padding:25px;
+
+border-radius:12px;
+
+font-size:20px;
+
+font-weight:bold;
+
+box-shadow:
+0 4px 10px rgba(0,0,0,0.1);
+
+}
+
+
+
+
+
+
+/* Products */
+
+
+.products {
+
+padding:40px;
+
+}
+
+
+
+.product-grid {
+
+display:grid;
+
+grid-template-columns:
+repeat(auto-fit,minmax(250px,1fr));
+
+gap:25px;
+
+}
+
+
+
+.product-card {
+
+background:white;
+
+padding:20px;
+
+border-radius:15px;
+
+box-shadow:
+0 4px 12px rgba(0,0,0,0.1);
+
+transition:.3s;
+
+}
+
+
+
+.product-card:hover {
+
+transform:translateY(-5px);
+
+}
+
+
+
+.product-card img {
+
+width:100%;
+
+height:200px;
+
+object-fit:cover;
+
+border-radius:10px;
+
+}
+
+
+
+.product-card button {
+
+
+background:#1b5e20;
+
+color:white;
+
+border:none;
+
+padding:12px 20px;
+
+border-radius:8px;
+
+cursor:pointer;
+
+}
+
+
+
+
+
+/* Trust Section */
+
+
+.trust {
+
+padding:40px;
+
+text-align:center;
+
+}
+
+
+
+.trust-grid {
+
+
+display:grid;
+
+grid-template-columns:
+repeat(4,1fr);
+
+gap:20px;
+
+
+}
+
+
+
+.trust-grid div {
+
+
+background:white;
+
+padding:25px;
+
+border-radius:12px;
+
+font-weight:bold;
+
+
+}
+
+
+
+
+
+
+/* Mobile */
+
+
+@media(max-width:768px){
+
+
+.category-grid {
+
+grid-template-columns:
+repeat(2,1fr);
+
+}
+
+
+
+.trust-grid {
+
+grid-template-columns:
+1fr;
+
+}
+
+
+
+.hero h1 {
+
+font-size:32px;
+
+}
+
+
+}

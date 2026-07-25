@@ -1,0 +1,74 @@
+.orders-page{
+
+padding:40px;
+
+background:#f7f7f7;
+
+min-height:100vh;
+
+}
+
+
+
+.orders-page h1{
+
+text-align:center;
+
+color:#1b1b1b;
+
+}
+
+
+
+
+.order-card{
+
+background:white;
+
+max-width:500px;
+
+margin:20px auto;
+
+padding:25px;
+
+border-radius:15px;
+
+box-shadow:0 5px 20px rgba(0,0,0,0.1);
+
+}
+
+
+
+
+.order-card h2{
+
+color:#2e7d32;
+
+}
+
+
+
+
+
+.order-buttons{
+
+display:flex;
+
+gap:15px;
+
+}
+
+
+
+
+.order-buttons button{
+
+padding:12px 20px;
+
+border:none;
+
+border-radius:8px;
+
+cursor:pointer;
+
+}
